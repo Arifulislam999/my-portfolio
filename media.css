@@ -1,0 +1,13 @@
+/* @media only screen and (max-width: 770px) {
+    #section-part {
+        background-color: red;
+        top: 2400px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    #section-part {
+        background-color: rgb(196, 154, 154);
+        top: 2380px;
+    }
+} */
