@@ -17,7 +17,6 @@ nav {
 
 ul li a {
     font-family: "Source Serif 4", sans-serif;
-    font-weight: bold;
     font-size: 25px;
     color: white;
     z-index: 100;
@@ -136,9 +135,16 @@ button i {
 
 .para-1 {
     font-weight: 600;
-    text-align: center;
+    text-align: justify;
     padding-left: 20px;
     text-indent: 60px;
+    font-family: "Source Serif 4", sans-serif;
+}
+
+.par-p p {
+    background-color: red;
+    display: table;
+    text-align: justify;
 }
 
 .text-s {
@@ -379,8 +385,9 @@ button i {
 }
 
 .ctt div h4 {
-    color: #f8b88b;
-    font-family: cursive;
+    color: #df4aa6;
+    font-family: "Old Standard TT", serif;
+    letter-spacing: 2px;
     text-decoration: underline;
     font-size: 20px;
 }
@@ -415,12 +422,13 @@ button i {
 
 .bt {
     margin-top: 10px;
+    margin-bottom: 20px;
     width: 85%;
     padding: 10px;
     font-size: 20px;
     color: white;
     background-color: rgb(226, 88, 88);
-    border: 3px solid blue;
+    border: 3px solid rgb(143, 143, 187);
     transition: all 0.5s ease;
     border-radius: 5px;
 }
@@ -432,6 +440,27 @@ button i {
 
 
 /* contact part end  */
+
+
+/* arrow symble start  */
+
+.fa-angle-double-up {
+    font-size: 45px;
+    padding: 10px;
+    float: right;
+    position: fixed;
+    top: 90%;
+    color: red;
+    z-index: 2222;
+    right: 15px;
+    bottom: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.fa-angle-double-up:hover {
+    color: deepskyblue;
+}
 
 
 /* media query part Strat  */

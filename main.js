@@ -15,8 +15,15 @@
         // Default value
     });
 } {
+    const arr = document.querySelector(".fa-angle-double-up");
+    arr.style.display = "none";
     const heder = document.querySelector("nav");
     window.addEventListener("scroll", () => {
         heder.classList.toggle("sticky", window.scrollY > 0);
+        if (heder.classList.contains("sticky")) {
+            arr.style.display = "inline";
+        } else {
+            arr.style.display = "none";
+        }
     });
 }
